@@ -38,8 +38,57 @@ analytics:
     tracking_id: "G-3SZ3CMNJNG"
     anonymize_ip: false # default
 
+author:
+  name     : "Abdullah Al Mataani"
+  avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "My awesome biography constrained to a sentence or two goes here."
+  location : "Muscat, Oman"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/abdullahmatani"
+
+include: ["_pages","_posts"]
+
+
+# collections for projects
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  
+  posts:
+    output: true
+    permalink: /:collection/:path/
+
+# layout defaults for projects, posts:
+defaults:
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: false
+      share: true
+  
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
 # Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark"
 plugins:
   - jekyll-feed
   - jekyll-include-cache

@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+Welcome to my personnal site which showcases my projects and documents them in posts.
