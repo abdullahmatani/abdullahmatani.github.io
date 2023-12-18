@@ -18,8 +18,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Personal Site
-subtitle: Abdullah Al Mataani
+title: Abdullah Al Mataani
+subtitle: Engineer
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   This website is for showcasing my work in various fields. 
@@ -40,8 +40,8 @@ analytics:
 
 author:
   name     : "Abdullah Al Mataani"
-  avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "My awesome biography constrained to a sentence or two goes here."
+  # avatar   : "/assets/images/bio-photo.jpg"
+  # bio      : "My awesome biography constrained to a sentence or two goes here."
   location : "Muscat, Oman"
 
 footer:

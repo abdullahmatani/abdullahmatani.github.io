@@ -1,0 +1,2 @@
+<iframe src="{{include.src}}" height="{{include.height}}" width="{{include.width}}">
+</iframe>
