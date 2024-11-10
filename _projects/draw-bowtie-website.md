@@ -2,7 +2,7 @@
 title: "Draw Bowties"
 excerpt: "Web Application for creating bowties through the web for hazard analysis."
 header:
-  image: /assets/images/foo-bar-identity.jpg
+  image: /_assets/draw-bowtie-website-assets/bowtie_logo.png
   teaser: /assets/images/foo-bar-identity-th.jpg
 sidebar:
   - title: "Role"
