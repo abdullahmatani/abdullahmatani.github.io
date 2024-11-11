@@ -2,17 +2,19 @@
 title: "Draw Bowties"
 excerpt: "Web Application for creating bowties through the web for hazard analysis."
 header:
-  image: ../_assets/draw-bowtie-website-assets/bowtie_logo.png
-  teaser: /assets/images/foo-bar-identity-th.jpg
+  teaser: /assets/draw-bowtie-website-assets/bowtie_logo.png
+  image: /assets/draw-bowtie-website-assets/Header.png
 sidebar:
-  - title: "Role"
-    image: http://placehold.it/350x250
+  - title: "Logo"
+    image: /assets/draw-bowtie-website-assets/bowtie_logo.png
     image_alt: "logo"
-    text: "Designer, Front-End Developer"
-  - title: "Responsibilities"
-    text: "Reuters try PR stupid commenters should isn't a business model"
+    text: "Created with Figma & Inkscape."
+  - title: "Front-End"
+    text: "Flutter & Material 3 Theme"
+  - title: "Back-End"
+    text: "None"
 gallery:
-  - url: /assets/images/unsplash-gallery-image-1.jpg
+  - url: /assets/draw-bowtie-website-assets/bowtie_logo.png
     image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
   - url: /assets/images/unsplash-gallery-image-2.jpg
@@ -29,3 +31,5 @@ This webtool was created using Flutter and a number of plugins, mainly the follo
 
 1. infinite_canvas
 2. printing (pdf export)
+
+There is currently no backend support for this web-application. All work can be saved as JSON and loaded whenever the application is loaded again.
