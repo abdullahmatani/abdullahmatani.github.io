@@ -1,6 +1,6 @@
 ---
-title: "Draw Bowties"
-excerpt: "Web Application for creating bowties through the web for hazard analysis."
+title: "Icecracker - Teambuilding App"
+excerpt: "Web Application that contains a number of online team building games."
 header:
   image: ../_assets/draw-bowtie-website-assets/bowtie_logo.png
   teaser: /assets/images/foo-bar-identity-th.jpg
@@ -23,9 +23,4 @@ gallery:
     alt: "placeholder image 3"
 ---
 
-The primary use of Draw Bowties is a fast and accessible way of generating bowties for hazard analysis. It has several options for customising the displays such as barrier colors, line colors and thicknessess. The files can be saved locally to JSON or exported to PDF for use in reports.
-
-This webtool was created using Flutter and a number of plugins, mainly the following:
-
-1. infinite_canvas
-2. printing (pdf export)
+This website was created using Angular, the purpose is to host a number of team building activities online that can act as icebreakers or be used for general team building. The first team building activity developed for this purpose is Maze Race where 8 to 16 participants can join a maze race and collaborate together in teams of 4 to solve the maze.
